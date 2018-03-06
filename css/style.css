@@ -127,5 +127,28 @@
 	display: inline-block;
 }
 
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
+.grid-item-image {
+  height: 200px;
+  border: 1px solid #000;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item-title {
+  
+  border: 1px solid #000;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 
 
