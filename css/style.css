@@ -130,23 +130,19 @@
 .grid-container {
   display: grid;
   grid-column-gap: 10px;
-  grid-template-columns: auto auto auto;
-
-  padding: 10px;
+  grid-template-columns: auto auto auto auto auto auto;
 }
+
 .grid-item-image {
-  height: 200px;
-  border: 1px solid #000;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  background: url("../images/default-image.png") center no-repeat;
+  height: 225px;
+  background-color: #e2e2e2;
 }
 
 .grid-item-title {
-  
-  border: 1px solid #000;
+  background-color: #e2e2e2;
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
